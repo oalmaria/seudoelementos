@@ -1,0 +1,9 @@
+p::first-line {font-size:2em;}
+p.parrafodos::first-letter{font-size: 3em;}
+p::before {content: "Leer...";
+    color: red;
+    font-style: italic;
+    font-weight: bold;}
+p::after{content:"...Lorem Ipsum...;"}
+li::before{background-image: url("img/uno.png");}
+div.fondo{background-image: url("img/fondo.jpg"); background-size: cover;background-attachment: fixed;}
